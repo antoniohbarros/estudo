@@ -30,7 +30,7 @@ class ChequeComum extends cheque
 
 	public function calculaJuros()
 	{
-		return $this->valor * $this->juros; // soma 25% em cima do valor
+		return $this->valor * $this->juros;
 	}
 }
 
