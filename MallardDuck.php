@@ -1,14 +1,16 @@
 <?php
 class MallardDuck extends Duck {
 
-	public function __constructor(){
+	function __construct(){
 
-		$quackBehavior = new Quack();
+		$this->quackBehavior = new Quack();
 
-		$flyBehavior = new FlyWithWings();
+		$this->flyBehavior = new FlyWithWings();
 
-		
+	}
 
-		echo "i'm a real mallard duck!";
+	public function display(){ 		
+
+		echo "i'm a real mallard duck!\n";
 	}
 }

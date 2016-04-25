@@ -8,6 +8,9 @@ class MiniDuckSimulator {
 	public function run() {
 		$mallard = new MallardDuck();
 
+		$mallard->performQuack();
+		$mallard->performFly();
+
 	}
 }
 

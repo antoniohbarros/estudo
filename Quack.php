@@ -2,8 +2,8 @@
 
 class Quack implements QuackBehavior {
 
-    public function quack() {
+    public function quacks() {
 
-    	echo "QUACK QUACK";
+    	echo "QUACK QUACK\n";
  	}
 }

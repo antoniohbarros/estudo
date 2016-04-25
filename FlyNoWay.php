@@ -1,8 +1,8 @@
 <?php
-public class FlyNoWay implements FlyBehavior {
+class FlyNoWay implements FlyBehavior {
 
 	public function fly() {
 
-		echo "i can't fly!"
+		echo "i can't fly!\n";
 	}
 }

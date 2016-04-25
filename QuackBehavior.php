@@ -2,6 +2,6 @@
 
 interface QuackBehavior {
 
-	public function quack();
+	public function quacks();
 
 }
